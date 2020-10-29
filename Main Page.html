@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header;}
+.item2 { grid-area: main; }
+.item3 { grid-area: right; }
+.item4 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main right'
+    'footer footer footer footer footer footer';
+}
+
+.grid-container > div {
+  
+  text-align: left;
+  padding: 50px;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #021f4b;
+}
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #4c3b71;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color:lightblue;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body background="sea.jpg">
+<div class="grid-container">
+  <div class="item1"><font size="7" color="#021f4b">WisDom TutoriaL</font><hr></hr>
+<ul>
+  <li><a href="register.html">Apply Now</a></li>
+ <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Fee Structure</a>
+    <div class="dropdown-content">
+ <a href="1st-5th.html">1st-5th</a>
+<a href="6th-8th.html">6th-8th</a>
+<a href="9th & 10th.html">9th&10th</a>
+<a href="11th 12th.html">11th&12th</a>
+<a href="special coaching.html">Special Courses</a>
+    </div>
+ <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Test Schedule</a>
+    <div class="dropdown-content">
+<a href="test schedule.html">Science</a>
+<a href="test schedule2.html">Commerce</a>
+<a href="test schedule3.html">Humanities</a>
+</div>
+    </li>
+<li><a href="faculty.html">Faculty Required</a></li>
+     <li><a href="about.html">About Us</a></li>
+</ul>
+</div>
+  <div class="item2"><marquee>
+<img src="w.jpg" width="550" height="300">
+<img src="2.jpg" width="550" height="300">
+<img src="knowledge.jpg" width="550" height="300">
+<img src="knowledge-and-skills.jpg" width="550" height="300">
+<img src="success.jpg" width="550" height="300">
+</marquee></div>  
+  <div class="item3">  
+  <font size="5">IMPORTANT LINKS:</font><br>
+ <ul>
+<li><a href="http://jkbose.co.in/.">JKBOSE-Official website</a></li><br>
+<li><a href="http://cbseacademic.nic.in/.">Central Board of Secondary Education</a></li><br>
+<li><a href="https://www.jeemain.nic.in/.">Joint Entrance Examination (Main) 2019</a></li><br>
+<li><a href="http://www.jakbopee.org/.">JKCET Examination</a></li>
+</ul></div>
+  <div class="item4">
+Contact Number : 6005121124<br>
+email : wisdomtutorial@gmail.com<br>
+Address : Aquaf Market, Gandhi Nagar, Jammu<br>
+<b>Project by Mansi Raut.</b><br>
+</div>
+</div>
+</body>
+</html>
